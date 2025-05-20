@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <link rel ="icon" href="favicon.ico">
+    <title>有限会社マイルストン</title>
+</head>  
+<body>
+    <nav>
+        <div class="logo"><a href="">有限会社マイルストン</a></div>
+        <ul>
+            <li><a target="_blank" href="home.html">ホーム</a></li>
+            <li><a target="_blank" href="company info.html">店舗求人情報</a></div>
+            <li><a target="_blank" href="job.html">採用案内</a></li>
+            <li><a target="_blank" href="mailto:milestone2005.jp@gmail.com">お問い合わせ</a></li>
+        </ul>
+        <div class="menu"> 
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
+    <main>
+        <section>
+            <center>
+            <h1>会社概要</h1>
+            <form >
+              <table border="1">
+                <tr>
+                      <td>会社名 </td>  <td>有限会社マイルストン</td>
+                </tr>
+                <tr>
+                    <td>設立年月日</td>  <td>２００５年７月１３日</td>
+                </tr>
+                <tr>
+                    <td>代表</td>  <td>石崎 浩二</td>
+                </tr>
+                <tr>
+                    <td>資本金 </td> <td>３００万</td>
+                </tr>
+                <tr>
+                    <td>従業員数  </td> <td>１５名（２０２４年７月現在）</td>
+                </tr>
+                <tr>
+                    <td>所在地 </td> <td>東京都品川区東五反田2-9-11 2階</td>
+                </tr>
+                <tr>
+                    <td>事業内容</td> <td>コンビニエンス運営（２３区内１０店舗運営中）</td>
+                </tr>
+                <tr>
+                    <td>年商 </td> <td>１５億円</td>
+                </tr>
+              </table>
+            </form>
+            <hr>
+            <form >
+                <table border="1">
+                    <tr>
+                        <td>ファミリーマート運営店舗 </td>  <td> 所在地</td>
+                    </tr>
+                    <tr>
+                        <td>1.南麻布三丁目店</td>  <td>東京都港区南麻布3-20-1麻布グリンテラス1階</td>
+                    </tr>
+                    <tr>
+                        <td>2.秋葉原昭和通り店 </td>  <td>東京都千代田区外神田松永町1番地</td>
+                    </tr>
+                    <tr>
+                        <td>3.外神田四丁目店 </td>  <td>東京都千代田区外神田4-6-1</td>
+                    </tr>
+                    <tr>
+                        <td>4.水道橋西通り店 </td>  <td>東京都千代田区三崎町3-7-1金沢ビル</td>
+                    </tr>
+                    <tr>
+                        <td>5.渋谷警察東店 </td>  <td>東京都渋谷区渋谷3-6-3清水ビル</td>
+                    </tr>
+                    <tr>
+                        <td>6.駒場四丁目店 </td>  <td>東京都目黒区駒場4-6-10コスモビル1階</td>
+                    </tr>
+                    <tr>
+                        <td>7.さくらテラス五反田店 </td>  <td>東京都品川区東五反田2-9-11</td>
+                    </tr>
+                    <tr>
+                        <td>8.九段北一丁目店  </td>  <td>東京都千代田区九段北1-3-5</td>
+                    </tr>
+                    <tr>
+                        <td>9.オーバルコート大崎店   </td>  <td>東京都品川区東五反田2-17-1オーバルコート
+                            大崎マークウエスト
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>10.ラグナタワー/Ｓ店    </td>  <td>東京都品川区東品川3-8-8ラグナタワー</td>
+                    </tr>
+                </table>
+            </form>
+            </center>
+        </section>
+    </main>
+</body>
+<script>
+     const menu = document.querySelector('.menu')
+     const menuList = document.querySelector('nav ul')
+     menu.addEventListener('click',()=>{
+        menuList.classList.toggle('showmenu')
+     })
+</script>
+<center>
+<footer>
+    <p class ="footer-text">MILESTOnE.ltd</p>      
+</center>
+</html>
